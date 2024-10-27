@@ -19,11 +19,12 @@
         - Output : 긍정/부정
           
 ## 감성 분석 결과
-### AUC score
-![AUC score](./image/auc_result.png)
-- 상위 3개의 모델인 Logistic regreesion, SVM, CatBoost가 각각 0.88, 0.84, 0.85의 AUC score를 달성함
 ### Word cloud
 ![Word cloud](./image/word_cloud.png)
 - 긍정 리뷰에서 'beautiful' 같은 표현을 강조해 호텔의 인테리어와 야경을 마케팅 요소로 활용할 수 있음
 - 부정 리뷰에서 'dirty' 같은 표현을 식별하여 청결 문제 개선 방안을 마련하고 고객 만족도를 높일 수 있음
+
+### AUC score
+![AUC score](./image/auc_result.png)
+- 상위 3개의 모델인 Logistic regreesion, SVM, CatBoost가 각각 0.88, 0.84, 0.85의 AUC score를 달성함
 
